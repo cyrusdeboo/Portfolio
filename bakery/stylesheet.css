@@ -1,0 +1,427 @@
+nav {
+	background-color: #ffb3b3;
+	height: auto;
+	position: relative;
+	width: 100%;
+}
+nav li a{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	display: block;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+}
+nav ul{
+	background-color: #ff4d4d;
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+nav a:hover{
+	background-color: #FDD5AC;
+	border-radius: 10px 10px 10px 10px;
+	color: white;
+}
+nav ul li{
+	float: left;
+	padding-bottom: 0px;
+	padding-right: 0px;
+}
+
+.logo{
+	height: auto;
+	padding: 10px 5px 1px 5px;
+	width: auto;
+}
+.logo img{
+	border-radius: 10px 10px 10px 10px;
+	height: 70px;
+	width: 60px;
+	margin-right: 30px;
+	float: left;
+}
+.logo h1{
+	colour : white;
+	margin-top: 10px;
+	padding: 0px;
+}
+.container{
+	margin: auto
+	max-width: 800px;
+}
+.aus img{
+
+	margin-left: 20px;
+	padding:5px;
+	width:20%;
+}
+
+
+.car img{
+		
+		margin-left: 100px;
+		padding: 30px 30px 30px 30px;
+}
+.cartext{
+	margin-left: 200px;
+	margin-top: -50px;
+ 
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0); 
+  color: black; 
+  width: 10%; 
+  padding: 0px;
+}
+.cherry img{
+		float: left;
+		margin-left: 550px;
+		margin-top: -260px;
+		padding: 30px 30px 35px 30px;
+}
+.cherrytext{
+	float: left;
+	margin-left: 640px;
+	margin-top: -50px;
+ 
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0); 
+  color: black; 
+  width: 20%; 
+  padding: 0px;
+}
+.choco img{
+		float: right;
+		margin-right: 190px;
+		margin-top: -260px;
+		padding: 30px 30px 40px 30px;
+}
+.chocotext{
+	float: right;
+	margin-right: 140px;
+	margin-top: -50px;
+ 
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0); 
+  color: black; 
+  width: 20%; 
+  padding: 0px;
+}
+.blue img{
+		
+		margin-left: 100px;
+		margin-top: 150px;
+		padding: 30px 30px 30px 30px;
+}
+.bluetext{
+    
+	margin-top: -45px;
+	margin-left: 180px;
+	
+	
+ 
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0); 
+  color: black; 
+  width: 20%; 
+  padding: 0px;
+}
+.rasp img{
+		float: left;
+		margin-left: 550px;
+		margin-top: -259px;
+		padding: 30px 30px 35px 30px;
+}
+.rasptext{
+	float: left;
+	margin-left: 614px;
+	margin-top: -52px;
+ 
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0); 
+  color: black; 
+  width: 20%; 
+  padding: 0px;
+}
+.mer img{
+		float: right;
+		margin-right: 190px;
+		margin-top: -255px;
+		padding: 30px 30px 30px 30px;
+}
+.mertext{
+	float: right;
+	margin-right: 147px;
+	margin-top: -47px;
+ 
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0); 
+  color: black; 
+  width: 20%; 
+  padding: 0px;
+}
+.ripe img{
+		
+		margin-left: 100px;
+		padding: 30px 30px 30px 30px;
+}
+.ripetext{
+	
+	margin-left: 190px;
+	margin-top: -50px;
+ 
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0); 
+  color: black; 
+  width: 10%; 
+  padding: 0px;
+}
+.chip img{
+		
+		margin-left: 500px;
+		margin-top: -200px;
+		padding: 30px 30px 30px 30px;
+}
+.chiptext{
+	
+	margin-left: 590px;
+	margin-top: -50px;
+ 
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0); 
+  color: black; 
+  width: 10%; 
+  padding: 0px;
+}
+
+.bak img{
+	float:left;
+	margin-left: 10px;
+    margin-top: 10px;
+	padding: 10px 10px 10px 10px;
+}
+.cmel img{
+	float:center; width: 20%;
+	margin-left:500px;
+	padding: 40px;
+
+}
+.catext{
+	margin-left: 200px;
+}
+.ch img{
+	float:left;
+	margin-left:10px;
+	padding:10px;
+
+}
+.chr img{
+	float:center;width:20%;
+	margin-left:500px;
+	padding:40px;
+}
+.mytext{
+	margin-left:350px;
+}
+.mytext1{
+	margin-left:350px;
+}
+.button{
+
+margin-left:300px;
+
+	border-radius: 8px;
+	background-color: #EF4C29;
+  border: none;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  
+}
+.homech img{
+	float:center;
+	margin-left:45px;
+	padding: 20px 180px 20px 180px;
+}
+
+.lemr img{
+	
+
+	margin-left: 900px;
+		margin-top: -200px;
+		padding: 30px 30px 30px 30px;
+
+}
+.lemrtext{
+	margin-left: 993px;
+	margin-top: -50px;
+ 
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0); 
+  color: black; 
+  width: 10%; 
+  padding: 0px;
+
+}
+
+.button{
+	
+	position: absolute;
+}
+
+body{
+	font-family: 'Walshein', sans-serif;
+	background-colour: silver;
+	margin: 0;
+  background-image: url('images/faint.jpg');
+
+
+
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  clear: both;
+  display: table;
+  width: 100%
+}
+
+.ek{
+	float:left;
+    margin-left:350px;
+    margin-top:-250px;
+	padding:10px;
+}
+table caption { 
+    font-size: 1.5em; 
+    padding: 10px 5px;
+} 
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+.cap{
+	float:center;
+	margin-left:100px;
+}
+
+	
+
+
+
+
+/*Targets the headings and first column*/ 
+th, td:nth-child(1) { 
+    font-size: 1.1em; 
+    font-weight: 500; } 
+
+
+td {
+            text-align: center;
+            padding: 5px;
+        }
+        td:before {
+                    position: absolute;
+                    top: 5px;
+                    left: 5px;
+                    white-space: nowrap;
+                    text-align: left; }
+ able, th, td { border: 1; }
+
+/*Apply a background color to the table heading*/
+thead { background-color: #a7a37e; }
+
+/*Apply a background color to every other row in the table body*/
+tbody tr:nth-child(even) { background-color: #ffe6ff; }
+
+/*Apply a background color to every other row in the table footer*/
+tfoot tr:nth-child(odd) { background-color: #efecca; }
+
+footer{
+	float: bottom;
+	background-color: #ff0000;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	box-sizing: border-box
+	clear: both; 
+	float:bottom;
+}
+
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+	.ek{
+		margin-bottom:-10px;
+		margin-left: 10px
+	}
+	.aus{
+		margin-bottom:100px;
+	}
+	.one{
+		width:100%;
+
+		
+	}
+
+	/* Force table to not be like tables anymore */
+	table, thead, caption, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { border: 1px solid #ccc; }
+	
+	td { 
+		/* Behave  like a "row" */
+		border: 1;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 30%; 
+	}
+	
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+
+	td:nth-of-type(2):before { content: "Monday"; }
+	td:nth-of-type(3):before { content: "Tuesday"; }
+	td:nth-of-type(4):before { content: "Wednesday"; }
+	td:nth-of-type(5):before { content: "Thursday"; }
+	td:nth-of-type(6):before { content: "Frieday"; }
+	td:nth-of-type(7):before { content: "Saturday"; }
+	td:nth-of-type(8):before { content: "Sunday"; }
+	
+	
+}

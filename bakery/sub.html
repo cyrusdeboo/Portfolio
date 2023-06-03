@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+<link rel=stylesheet href="stylesheet.css">	
+<title>Tropical treats</title>
+<meta name="viewport" content="width=device-width, initial scale=1">
+</head>
+<body bgcolor="#ffe6cc">
+<nav>
+	<div class="logo">
+		<img src="images/logo.jpg">
+		<h1><font face="times new roman" style="font-size:30px"><font color="#ff1a1a">Tropical Treats</font></font></h1>
+	</div><br>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="Mybakery.html">My Bakery</a></li>
+		<li><a href="specials.html">Specials</a></li>
+		<li><a href="menu.html">Menu</a></li>
+		<li><a href="sub.html">Signup</a></li>
+		
+	</ul>
+
+</nav><br>
+
+<script src="script.js"></script>     
+
+
+<style>
+
+
+
+body {font-family: gill sans;}
+
+
+
+.btn-submit {background-color: red; color: white; font-size: 15px; font-weight: bold;}
+.btn-reset  {background-color: blue; color: white; font-size: 15px; font-weight: bold;}
+h4 {color: red;}
+h6{color:red;}
+h1 {text-align: center;}
+
+fieldset { 
+          display: block;
+          margin-left: 2px;
+          margin-right: 2px;
+          padding-top: 0.35em;
+          padding-bottom: 0.625em;
+          padding-left: 0.75em;
+          padding-right: 0.75em;
+          border: 8px groove (internal value); }
+          </style>
+
+
+<form name="myForm" action="action_page.php" onsubmit="return validateForm()" method="post">
+  <fieldset>
+    <legend>Personal Information</legend>
+      Enter full name<font color="red">*</font>: &nbsp &nbsp &nbsp <input type="textbox" name="name"><br><br>
+      Email<font color="red">*</font>: &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input type="textbox" name="email"><br><br>
+      Date of Birth (<i>for birthday offers</i>)<font color="red">*</font>:&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input type="date" name="dob"><br><br>
+      Please feel free to give any suggestions or comments: <br><textarea name="message" rows="5" cols="45"></textarea><Br><br>
+         <input type="submit" value="Submit" class="btn-submit" align="center"></a>
+<input type="reset" value="Reset" name="Reset" class="btn-reset">
+
+    </fieldset><br>
+    
+      
+    </form><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<footer>
+	<div class="container"><font family="times new roman">©Tropical Treats</font></div>Contact: 0455 5555 555, Catering: 0433 3333 333, Address:  123 Prize Lane, Kirwan, QLD
+
+</footer>
+</body>
+</html>
+
